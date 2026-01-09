@@ -55,10 +55,11 @@ export default function Home() {
             <span>100%</span>
           </div>
         </div>
-
+        <br/>
+<h2>Need some help now?</h2>
         {/* Button (simple; you can later swap to a contact form) */}
         <a className={styles.button} href="mailto:info@northstarcleanouts.com">
-          Notify Me
+          MESSAGE ME
         </a>
 
         {/* Footer note */}
