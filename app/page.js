@@ -17,6 +17,8 @@ export default function Home() {
       </div>
 
       <section className={styles.card} aria-label="Under construction">
+        <h1 className={styles.title}>Northstar Cleanouts</h1>
+        <h2>Junk Removal</h2>
         {/* Logo placeholder (drop your logo into /public/logo.png) */}
         <div className={styles.logoWrap}>
           <Image
@@ -56,6 +58,7 @@ export default function Home() {
           </div>
         </div>
         <br />
+        <h1>Junk Removal</h1>
         <h2>Need some help now?</h2>
         {/* Button (simple; you can later swap to a contact form) */}
         <a className={styles.button} href="mailto:info@northstarcleanouts.com">
